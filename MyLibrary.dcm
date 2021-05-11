@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CD4504
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, SOIC-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP TXB0106
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, SOIC-14
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
 #End Doc Library
