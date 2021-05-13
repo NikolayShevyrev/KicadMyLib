@@ -1,9 +1,42 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADuM1300
+D Triple-Channel Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf
+$ENDCMP
+#
 $CMP CD4504
 D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, SOIC-8
 K Level-Shifter CMOS-TTL-Translation
 F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP LM3940
+D Low-Dropout Regulator for 5-V to 3.3-V Conversion
+F https://www.ti.com/lit/ds/symlink/lm3940.pdf
+$ENDCMP
+#
+$CMP NXE2S1205MC
+D 12V to 5V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1212MC
+D 12V to 12V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1215MC
+D 12V to 15V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP TMA0515S
+D 5V to 15V 200mA DC-DC Converter 
+F https://www.tracopower.com/sites/default/files/products/datasheets/tma_datasheet.pdf
 $ENDCMP
 #
 $CMP TXB0106

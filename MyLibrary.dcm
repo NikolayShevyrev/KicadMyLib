@@ -1,9 +1,24 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADuM1300
+D Triple-Channel Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf
+$ENDCMP
+#
 $CMP CD4504
 D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, SOIC-8
 K Level-Shifter CMOS-TTL-Translation
 F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP LM3940
+D Low-Dropout Regulator for 5-V to 3.3-V Conversion
+F https://www.ti.com/lit/ds/symlink/lm3940.pdf
+$ENDCMP
+#
+$CMP M24512
+D 512-Kbit serial I²C bus EEPROM
+F https://ru.mouser.com/datasheet/2/389/m24512_r-1849742.pdf
 $ENDCMP
 #
 $CMP TXB0106
