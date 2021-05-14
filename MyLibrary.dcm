@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8601
+D Low Power Single Operational Amplifier, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm321.pdf
+$ENDCMP
+#
 $CMP ADuM1300
 D Triple-Channel Digital Isolator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf

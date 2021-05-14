@@ -16,27 +16,9 @@ D Low-Dropout Regulator for 5-V to 3.3-V Conversion
 F https://www.ti.com/lit/ds/symlink/lm3940.pdf
 $ENDCMP
 #
-$CMP NXE2S1205MC
-D 12V to 5V 400mA DC-DC Converter with 3kV isolation
-K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
-$ENDCMP
-#
-$CMP NXE2S1212MC
-D 12V to 12V 400mA DC-DC Converter with 3kV isolation
-K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
-$ENDCMP
-#
-$CMP NXE2S1215MC
-D 12V to 15V 400mA DC-DC Converter with 3kV isolation
-K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
-$ENDCMP
-#
-$CMP TMA0515S
-D 5V to 15V 200mA DC-DC Converter 
-F https://www.tracopower.com/sites/default/files/products/datasheets/tma_datasheet.pdf
+$CMP M24512
+D 512-Kbit serial I²C bus EEPROM
+F https://ru.mouser.com/datasheet/2/389/m24512_r-1849742.pdf
 $ENDCMP
 #
 $CMP TXB0106
