@@ -1,9 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ACPL-M21L
+D Low Power, 5-MBd Digital CMOS Optocoupler 
+F https://docs.broadcom.com/doc/AV02-3462EN
+$ENDCMP
+#
 $CMP AD8601
 D Low Power Single Operational Amplifier, SOT-23-5
 K single opamp
 F http://www.ti.com/lit/ds/symlink/lm321.pdf
+$ENDCMP
+#
+$CMP AD8604
+D Precision CMOS, Single-Supply, Rail-to-Rail Input/Output Wideband Operational Amplifiers
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8601_8602_8604.pdf
 $ENDCMP
 #
 $CMP ADuM1300
@@ -15,6 +25,12 @@ $CMP CD4504
 D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, SOIC-8
 K Level-Shifter CMOS-TTL-Translation
 F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP LM25118
+D Wide Voltage Range Buck-Boost Controller, HTSSOP-20
+K Buck Boost step-up step-down
+F https://www.ti.com/lit/ds/symlink/lm25118.pdf?ts=1624340909772&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM25118
 $ENDCMP
 #
 $CMP LM3940
@@ -44,6 +60,11 @@ K power-flag
 $ENDCMP
 #
 $CMP VDDOSC
+D Power symbol creates a global label with name "VDD"
+K power-flag
+$ENDCMP
+#
+$CMP VIN
 D Power symbol creates a global label with name "VDD"
 K power-flag
 $ENDCMP

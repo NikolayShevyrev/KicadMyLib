@@ -1,9 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ACPL-M21L
+D Low Power, 5-MBd Digital CMOS Optocoupler 
+F https://docs.broadcom.com/doc/AV02-3462EN
+$ENDCMP
+#
 $CMP AD8601
 D Low Power Single Operational Amplifier, SOT-23-5
 K single opamp
 F http://www.ti.com/lit/ds/symlink/lm321.pdf
+$ENDCMP
+#
+$CMP AD8604
+D Precision CMOS, Single-Supply, Rail-to-Rail Input/Output Wideband Operational Amplifiers
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8601_8602_8604.pdf
 $ENDCMP
 #
 $CMP ADuM1300
