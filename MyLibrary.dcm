@@ -47,6 +47,16 @@ D 512-Kbit serial I²C bus EEPROM
 F https://ru.mouser.com/datasheet/2/389/m24512_r-1849742.pdf
 $ENDCMP
 #
+$CMP OPA350
+D High-Speed, Single-Supply, Rail-to-Rail Operational Amplifiers
+F https://www.ti.com/lit/ds/symlink/opa350.pdf?ts=1627875429865&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA350
+$ENDCMP
+#
+$CMP REF1930
+D Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage References
+F https://www.ti.com/lit/ds/symlink/ref1930.pdf?ts=1627848296432&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF1930
+$ENDCMP
+#
 $CMP TMS320F28377D
 D C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 1024 KB flash, EMIF, 16b ADC
 F https://www.ti.com/lit/ds/symlink/tms320f28377d.pdf?ts=1622616916401&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMS320F28377D%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Depd-c2x-null-prodfolderdynamic-cpc-pf-google-eu%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC%2BSEARCH%2BADS%2526DCM%253Dyes%2526gclid%253DCj0KCQjwkZiFBhD9ARIsAGxFX8A2Tmf4MfZ5BmCuw3fy1u9ysyilGGUJGv4G4PDIHWSX66zWJ4fo69gaAoQoEALw_wcB%2526gclsrc%253Daw.ds
@@ -69,6 +79,11 @@ K power-flag
 $ENDCMP
 #
 $CMP VIN
+D Power symbol creates a global label with name "VDD"
+K power-flag
+$ENDCMP
+#
+$CMP VREF
 D Power symbol creates a global label with name "VDD"
 K power-flag
 $ENDCMP
