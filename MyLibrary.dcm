@@ -42,6 +42,11 @@ D Low-Dropout Regulator for 5-V to 3.3-V Conversion
 F https://www.ti.com/lit/ds/symlink/lm3940.pdf
 $ENDCMP
 #
+$CMP LM7301
+D Low Power, 4-MHz GBW, Rail-to-Rail Input-Output Operational Amplifier
+F https://www.ti.com/lit/ds/symlink/lm7301.pdf?ts=1628248886134
+$ENDCMP
+#
 $CMP M24512
 D 512-Kbit serial I²C bus EEPROM
 F https://ru.mouser.com/datasheet/2/389/m24512_r-1849742.pdf
@@ -69,27 +74,27 @@ F http://www.ti.com/lit/ds/symlink/txb0104.pdf
 $ENDCMP
 #
 $CMP VDDIO
-D Power symbol creates a global label with name "VDD"
+D Power symbol creates a global label with name "VDDIO"
 K power-flag
 $ENDCMP
 #
 $CMP VDDOSC
-D Power symbol creates a global label with name "VDD"
+D Power symbol creates a global label with name "VDDOSC"
 K power-flag
 $ENDCMP
 #
 $CMP VIN
-D Power symbol creates a global label with name "VDD"
+D Power symbol creates a global label with name "VIN"
 K power-flag
 $ENDCMP
 #
 $CMP VREF
-D Power symbol creates a global label with name "VDD"
+D Power symbol creates a global label with name "VREF"
 K power-flag
 $ENDCMP
 #
 $CMP VSSOSC
-D Power symbol creates a global label with name "VSS"
+D Power symbol creates a global label with name "VSSOSC"
 K power-flag
 $ENDCMP
 #
