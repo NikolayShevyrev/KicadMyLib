@@ -31,6 +31,11 @@ K Level-Shifter CMOS-TTL-Translation
 F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
 $ENDCMP
 #
+$CMP ISO5452DW
+D High-CMTI 2.5-A and 5-A Isolated IGBT, MOSFET Gate Driver
+F https://www.ti.com/lit/ds/symlink/iso5452.pdf?ts=1629274307230&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
 $CMP LM25118
 D Wide Voltage Range Buck-Boost Controller, HTSSOP-20
 K Buck Boost step-up step-down
@@ -52,6 +57,24 @@ D 512-Kbit serial I²C bus EEPROM
 F https://ru.mouser.com/datasheet/2/389/m24512_r-1849742.pdf
 $ENDCMP
 #
+$CMP NXE2S1205MC
+D 12V to 5V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1212MC
+D 12V to 12V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1215MC
+D 12V to 15V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
 $CMP OPA350
 D High-Speed, Single-Supply, Rail-to-Rail Operational Amplifiers
 F https://www.ti.com/lit/ds/symlink/opa350.pdf?ts=1627875429865&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA350
@@ -60,6 +83,12 @@ $ENDCMP
 $CMP REF1930
 D Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage References
 F https://www.ti.com/lit/ds/symlink/ref1930.pdf?ts=1627848296432&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF1930
+$ENDCMP
+#
+$CMP TMA1515S
+D 5V to 5V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
 $ENDCMP
 #
 $CMP TMS320F28377D
