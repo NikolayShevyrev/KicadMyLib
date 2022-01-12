@@ -31,6 +31,12 @@ K Level-Shifter CMOS-TTL-Translation
 F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
 $ENDCMP
 #
+$CMP ISO1050DW
+D Isolated CAN Transceiver, SOIC-16
+K CAN Isolated
+F http://www.ti.com/lit/ds/symlink/iso1050.pdf
+$ENDCMP
+#
 $CMP ISO5452DW
 D High-CMTI 2.5-A and 5-A Isolated IGBT, MOSFET Gate Driver
 F https://www.ti.com/lit/ds/symlink/iso5452.pdf?ts=1629274307230&ref_url=https%253A%252F%252Fwww.google.com%252F
@@ -78,6 +84,11 @@ $ENDCMP
 $CMP OPA350
 D High-Speed, Single-Supply, Rail-to-Rail Operational Amplifiers
 F https://www.ti.com/lit/ds/symlink/opa350.pdf?ts=1627875429865&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA350
+$ENDCMP
+#
+$CMP PVG612
+D HEXFET Power MOSFET Photovoltaic Relay Single-Pole, Normally-Open, 0-60V, 1.0A AC / 2.0A DC
+F https://www.infineon.com/dgdl/Infineon-PVG612-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a401535683c1892937
 $ENDCMP
 #
 $CMP REF1930
