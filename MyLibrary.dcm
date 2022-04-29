@@ -9,6 +9,11 @@ $CMP ACPL-M50L
 D Low Power, 1MBd Digital Optocoupler
 $ENDCMP
 #
+$CMP AD2S1205
+D 12-Bit resolver-to-digital converter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad2s1205.pdf
+$ENDCMP
+#
 $CMP AD8601
 D Low Power Single Operational Amplifier, SOT-23-5
 K single opamp
@@ -20,15 +25,45 @@ D Precision CMOS, Single-Supply, Rail-to-Rail Input/Output Wideband Operational 
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8601_8602_8604.pdf
 $ENDCMP
 #
+$CMP ADG3304
+D Low Voltage, 1.15 V to 5.5 V, 4-Channel Bidirectional Logic Level Translator
+F https://static.chipdip.ru/lib/092/DOC001092280.pdf
+$ENDCMP
+#
+$CMP ADG3308
+D Low Voltage, 1.15 V to 5.5 V, 8-Channel Bidirectional Logic Level Translator
+F https://static.chipdip.ru/lib/030/DOC001030116.pdf
+$ENDCMP
+#
 $CMP ADuM1300
 D Triple-Channel Digital Isolator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf
+$ENDCMP
+#
+$CMP AGND
+D Power symbol creates a global label with name "GNDA" , analog ground
+K power-flag
+$ENDCMP
+#
+$CMP AVDD
+D Power symbol creates a global label with name "VDDA"
+K power-flag
 $ENDCMP
 #
 $CMP CD4504
 D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, SOIC-8
 K Level-Shifter CMOS-TTL-Translation
 F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP DGND
+D Power symbol creates a global label with name "GNDA" , analog ground
+K power-flag
+$ENDCMP
+#
+$CMP DVDD
+D Power symbol creates a global label with name "VDDA"
+K power-flag
 $ENDCMP
 #
 $CMP ISO1050DW
